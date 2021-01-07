@@ -1,0 +1,15 @@
+{
+  "name": "doom",
+  "version": "1.0.0",
+  "description": "Website about the late rapper who recently passed.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Jacob Perez",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
+}
