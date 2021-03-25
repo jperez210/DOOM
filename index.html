@@ -7,10 +7,13 @@
     <title>MF DOOM</title>
     <link rel="stylesheet" href="main.css">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon.ico">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
-
+    <link rel="stylesheet" href="node_modules/lite-youtube-embed/src/lite-yt-embed.css" />
+    <script src="node_modules/lite-youtube-embed/src/lite-yt-embed.js"></script>
+    <script src="https://kit.fontawesome.com/893a019cfa.js" crossorigin="anonymous"></script>
+    
 </head>
+
 <body>
     <nav class="navbar">
         <div class="logo">
@@ -119,14 +122,13 @@
 <section id="music">
     <div class="row">
         <div class="column2">
-            <iframe title="Madvillain Accordion" src="https://www.youtube.com/embed/rpaonSDPw7Y" style="width:100%;"  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <lite-youtube videoid="rpaonSDPw7Y" playlabel="Madvillain Accordion" style="width:100%;" frameborder="0"></lite-youtube>
        </div>
         <div class="column2">
-            <iframe title="JJ DOOM GUV'NOR" src="https://www.youtube.com/embed/WW-9TcDTKa8" style="width:100%;" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <lite-youtube videoid="WW-9TcDTKa8" playlabel="JJ DOOM GUV'NOR"> </lite-youtube>
         </div>
         <div class="column2">
-            <iframe title="JJ DOOM BOOKHEAD" src="https://www.youtube.com/embed/jTCI_bqMi_w" style="width:100%;" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> </iframe> 
-        </div>
+            <lite-youtube videoid="jTCI_bqMi_w" playlabel="JJ DOOM BOOKHEAD"> </lite-youtube>
     </div>
 </section>
 
