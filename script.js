@@ -36,3 +36,4 @@ function labnolIframe(div) {
   }
 
   document.addEventListener('DOMContentLoaded', initYouTubeVideos);
+
